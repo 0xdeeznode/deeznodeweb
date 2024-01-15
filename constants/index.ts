@@ -94,7 +94,7 @@ export const Skill_data = [
     {
       name: "Medium",
       src: "/medium.svg",
-      url: "https://github.com/0xdeeznode",
+      url: "https://medium.com/@0xdeeznode",
     },
   ];
   
