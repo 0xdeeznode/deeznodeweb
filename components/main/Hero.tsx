@@ -4,10 +4,10 @@ import Shapes from '../sub/Shapes'
 
 const Hero = () => {
   return (
-    <div className='relative flex flex-col md:flex-row h-full w-full'>
-        <HeroContent />
-        <Shapes />
-    </div>
+    <section className='relative flex flex-col md:flex-row h-full w-full'>
+      <HeroContent />
+      <Shapes />
+    </section>
   )
 }
 
