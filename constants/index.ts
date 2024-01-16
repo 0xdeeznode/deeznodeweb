@@ -1,3 +1,22 @@
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "cv",
+    title: "CV",
+  },
+];
+
 export const LanguagesFrameworks = [
     {
       skill_name: "Html 5",
