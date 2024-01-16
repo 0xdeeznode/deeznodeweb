@@ -1,94 +1,82 @@
 export const LanguagesFrameworks = [
     {
       skill_name: "Html 5",
-      Image: "/html.png",
+      Image: "/html.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Css",
-      Image: "/css.png",
+      Image: "/css.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Java Script",
-      Image: "/js.png",
-      width: 65,
-      height: 65,
-    },
-    {
-      skill_name: "Tailwind Css",
-      Image: "/tailwind.png",
+      Image: "/javascript.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "React",
-      Image: "/react.png",
+      Image: "/react.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Type Script",
-      Image: "/ts.png",
+      Image: "/typescript.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Next js 14",
-      Image: "/next.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Framer Motion",
-      Image: "/framer.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Stripe Payment",
-      Image: "/stripe.webp",
+      Image: "/nextjs.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Node js",
-      Image: "/node-js.png",
+      Image: "/nodejs.svg",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Mongo db",
-      Image: "/mongodb.png",
-      width: 40,
-      height: 40,
+      skill_name: "Python",
+      Image: "/python.svg",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Django",
+      Image: "/django.svg",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Go",
+      Image: "/go.svg",
+      width: 100,
+      height: 100,
     },
   ];
   
   export const ToolsPlatforms = [
     {
+      skill_name: "Git",
+      Image: "/git.svg",
+      width: 80,
+      height: 80,
+    },
+    {
       skill_name: "Tailwind Css",
-      Image: "/tailwind.png",
+      Image: "/tailwind.svg",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "React",
-      Image: "/react.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Type Script",
-      Image: "/ts.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Next js 14",
-      Image: "/next.png",
+      skill_name: "Framer Motion",
+      Image: "/framermotion.svg",
       width: 80,
       height: 80,
     },
@@ -97,15 +85,15 @@ export const LanguagesFrameworks = [
   export const Databases = [
     {
       skill_name: "Mongo db",
-      Image: "/mongodb.png",
-      width: 40,
-      height: 40,
+      Image: "/mongodb.svg",
+      width: 70,
+      height: 70,
     },
     {
       skill_name: "My SQL",
-      Image: "/mysql.png",
-      width: 70,
-      height: 70,
+      Image: "/mysql.svg",
+      width: 80,
+      height: 80,
     },
   ];
   
