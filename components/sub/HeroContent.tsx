@@ -11,21 +11,12 @@ const HeroContent = () => {
         <motion.div
         initial='hidden'
         animate='visible'
-        className='flex flex-row items-center justify-center px-10 md:mt-32 mb-6 md:mb-0 w-auto z-[20]'
+        className='flex flex-row items-center justify-center md:mt-32 w-auto z-[20]'
         >
             <div className='h-full w-full flex flex-col gap-4 justify-center m-auto'>
-                <motion.div 
-                variants={slideInFromTop}
-                className="Welcome-box py-[18px] px-[18px] border-[#7042f88b] opacity-[0.9]"
-                >
-                    <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
-                    <h1 className='Welcome-text text-[16px]'>
-                        Webdev & Design Portfolio
-                    </h1>
-                </motion.div>
                 <motion.div
                 variants={slideInFromLeft(0.5)}
-                className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
+                className='flex flex-col gap-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
                 >
                     <span>
                         Providing
@@ -39,12 +30,15 @@ const HeroContent = () => {
                 >
                     I&apos;m a Web Developer with experience in Websites, Webapps, and Mobile. Check out my projects and skills.
                 </motion.p>
-                <motion.a
-                variants={slideInFromLeft(1)}
-                className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
+                <motion.div 
+                variants={slideInFromTop}
+                className="Welcome-box gap-1 p-4 border-[#7042f88b] opacity-[0.9]"
                 >
-                    Learn More!
-                </motion.a>
+                    <SparklesIcon className='text-[#b49bff] h-5 w-5' />
+                    <h1 className='Welcome-text text-base'>
+                        Webdev & Design Portfolio
+                    </h1>
+                </motion.div>
             </div>
         </motion.div>
     </section>

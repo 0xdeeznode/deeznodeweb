@@ -1,8 +1,8 @@
 'use client';
 
 import Link from "next/link";
-import { Socials } from "@/constants";
 import Image from "next/image";
+import { Socials } from "@/constants";
 import React, { useState } from "react";
 import { gsap } from 'gsap';
 
@@ -13,14 +13,14 @@ const Navbar = () => {
 
     setNavBar(!navBar)
       if (navBar) {
-        gsap.to('.menu',{y:-210, duration:1.5, ease:"bounce"})
+        gsap.to('.menu',{y:-210, duration:1.5, display:'hidden', ease:"bounce"})
       } else {
-        gsap.to('.menu',{y:65, duration:1.5, ease:"bounce"})
+        gsap.to('.menu',{y:65, duration:1.5, display:'flex', ease:"bounce"})
       }
   }
 
   return (
-    <nav className="w-full h-12 fixed top-0 shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md z-50 px-8 py-8">
+    <nav className="w-full h-12 fixed top-0 shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md z-50 p-8">
       <div className="w-full h-full flex flex-row items-center justify-between gap-2">
         <Link
           href="/"
@@ -76,15 +76,15 @@ const Navbar = () => {
         </div>
       </div>
       {/* MOBILE MENU */}
-      <div className={`menu ${navBar ? 'flex' : 'hidden' } absolute top-0 left-0 right-0 justify-center items-center px-4 w-full h-52 bg-[#100b2c] text-center rounded-xl`}>
+      <div className={`menu hidden absolute top-0 left-0 right-0 justify-center items-center px-4 w-full h-52 shadow-lg shadow-[#2A0E61]/50 bg-[#030014e8] backdrop-blur-md z-50 text-center rounded-3xl`}>
         <ul className="w-full">
-          <li className='p-3 text-3xl text-white'>
+          <li className='p-3 text-3xl text-white hover:font-bold ease-in duration-300'>
             <Link href='/about' onClick={handleNav}>About Me</Link>
           </li>
-          <li className='p-3 text-3xl text-white'>
+          <li className='p-3 text-3xl text-white hover:font-bold ease-in duration-300'>
             <Link href='/projects' onClick={handleNav}>Projects</Link>
           </li>
-          <li className='p-3 text-3xl text-white'>
+          <li className='p-3 text-3xl text-white hover:font-bold ease-in duration-300'>
             <Link href='/nothing' onClick={handleNav}>Nothing Here</Link>
           </li>
         </ul>
