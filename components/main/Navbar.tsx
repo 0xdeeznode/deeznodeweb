@@ -4,16 +4,23 @@ import Link from "next/link";
 import { Socials } from "@/constants";
 import Image from "next/image";
 import React, { useState } from "react";
+import { gsap } from 'gsap';
 
 const Navbar = () => {
   const [navBar, setNavBar] = useState(false);
-  
+
   const handleNav = () => {
+
     setNavBar(!navBar)
+      if (navBar) {
+        gsap.to('.menu',{y:-210, duration:1.5, ease:"bounce"})
+      } else {
+        gsap.to('.menu',{y:65, duration:1.5, ease:"bounce"})
+      }
   }
 
   return (
-    <nav className="w-full h-14 fixed top-0 shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md z-50 px-8 py-8">
+    <nav className="w-full h-12 fixed top-0 shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md z-50 px-8 py-8">
       <div className="w-full h-full flex flex-row items-center justify-between gap-2">
         <Link
           href="/"
@@ -31,8 +38,8 @@ const Navbar = () => {
           </span>
         </Link>
 
-        <div className="w-60 h-28 hidden md:flex flex-row items-center justify-between">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] px-5 py-3 rounded-full text-gray-200">
+        <div className="w-60 h-20 hidden md:flex flex-row items-center justify-between">
+          <div className="text-md flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] px-5 py-2 rounded-full text-gray-100">
             <Link href="/about" className="cursor-pointer">
               About Me
             </Link>
@@ -42,15 +49,15 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex flex-row md:gap-5 gap-2 w-40">
+        <div className="flex flex-row md:gap-5 gap-2 w-36">
           {Socials.map((social, index) => (
             <a className="mx-auto" key={index} href={social.url} target="_blank" rel="noopener noreferrer">
               <Image
                 src={social.src}
                 alt={social.name}
                 key={social.name}
-                width={35}
-                height={35}
+                width={30}
+                height={30}
               />
             </a>
           ))}
@@ -67,17 +74,20 @@ const Navbar = () => {
             </svg>          
           }
         </div>
-        {/* MOBILE MENU */}
-        <div className={navBar ? 'sm:hidden absolute top-0 right-0 flex justify-center items-center w-60 h-80 bg-black text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'}>
-          <ul>
-            <li className='p-4 text-4xl text-white'>
-              <Link href='/about' onClick={handleNav}>About Me</Link>
-            </li>
-            <li className='p-4 text-4xl text-white'>
-              <Link href='/projects' onClick={handleNav}>Projects</Link>
-            </li>
-          </ul>
-        </div>
+      </div>
+      {/* MOBILE MENU */}
+      <div className={`menu ${navBar ? 'flex' : 'hidden' } absolute top-0 left-0 right-0 justify-center items-center px-4 w-full h-52 bg-[#100b2c] text-center rounded-xl`}>
+        <ul className="w-full">
+          <li className='p-3 text-3xl text-white'>
+            <Link href='/about' onClick={handleNav}>About Me</Link>
+          </li>
+          <li className='p-3 text-3xl text-white'>
+            <Link href='/projects' onClick={handleNav}>Projects</Link>
+          </li>
+          <li className='p-3 text-3xl text-white'>
+            <Link href='/nothing' onClick={handleNav}>Nothing Here</Link>
+          </li>
+        </ul>
       </div>
     </nav>
   );
