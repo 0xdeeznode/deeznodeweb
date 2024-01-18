@@ -13,7 +13,7 @@ const HeroContent = () => {
         animate='visible'
         className='flex flex-row items-center justify-center md:mt-32 w-auto z-[20]'
         >
-            <div className='h-full w-full flex flex-col gap-4 justify-center m-auto'>
+            <div className='h-full w-full flex flex-col gap-3 justify-center m-auto'>
                 <motion.div
                 variants={slideInFromLeft(0.5)}
                 className='flex flex-col gap-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
