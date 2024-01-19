@@ -17,6 +17,25 @@ export const navLinks = [
   },
 ];
 
+export const techList = [
+  {
+    tech_name: 'React',
+    tech_color: '#29D8FF'
+  },
+  {
+    tech_name: 'Next.js',
+    tech_color: '#FFFFFF'
+  },
+  {
+    tech_name: 'GSAP',
+    tech_color: '#0AE448'
+  },
+  {
+    tech_name: 'Django',
+    tech_color: '#092E20'
+  },
+]
+
 export const LanguagesFrameworks = [
     {
       skill_name: "Html 5",
