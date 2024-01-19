@@ -5,10 +5,10 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { techList } from '@/constants';
 
-gsap.registerPlugin(ScrollTrigger);
 
 const Techlist = () => {
-
+  
+  gsap.registerPlugin(ScrollTrigger);
   const component = useRef(null);
 
   useEffect(() => {
@@ -20,12 +20,12 @@ const Techlist = () => {
           markers:true,
           start:'top bottom',
           end:'bottom top',
-          scrub:4,
+          scrub:3,
         },
       });
 
       tl.fromTo(
-        "tech-row", 
+        ".tech-row", 
         {
           x: (index) => {
             return index % 2 === 0
