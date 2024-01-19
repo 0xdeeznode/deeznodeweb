@@ -17,7 +17,6 @@ const Techlist = () => {
       const tl = gsap.timeline({
         scrollTrigger: {
           pin:true, // pin the trigger element while active
-          markers:true,
           start:'top bottom',
           end:'bottom top',
           scrub:3,
@@ -60,7 +59,7 @@ const Techlist = () => {
               <React.Fragment key={index}>
                 <span 
                   className={
-                    'tech-item sm:text-7xl text-6xl font-extrabold uppercase tracking-tighter'
+                    'sm:text-7xl text-6xl font-extrabold uppercase tracking-tighter'
                   }
                    style={{
                     color: index === 7 && tech_color ? tech_color : 'inherit',
