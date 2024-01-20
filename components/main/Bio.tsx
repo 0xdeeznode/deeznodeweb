@@ -4,15 +4,12 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import { slideInFromLeft, slideInFromRight } from '@/utils/motion'
 import Image from 'next/image';
+import { styles } from '@/styles';
 
 const Bio = () => {
   return (
-    <section>
-        <motion.div
-        initial='hidden'
-        animate='visible'
-        className='flex md:flex-row flex-col items-center justify-center px-10 mt-28 w-auto z-[20] mb-12'
-        >
+    <section className={`${styles.sectionP}`}>
+        <div className='flex md:flex-row flex-col gap-12 items-center justify-center mt-28 z-[20]'>
             <motion.div variants={slideInFromLeft(0.5)} className="overflow-hidden rounded-3xl border-2 border-slate-700 z-[20]">
                 <Image
                 className='md:w-auto md:h-auto w-[180px] h-[240px]'
@@ -51,14 +48,8 @@ const Bio = () => {
                 >
                     Join me as I continue to push the boundaries of what's possible in my digital world!
                 </motion.p>
-                <motion.a
-                variants={slideInFromRight(1)}
-                className='py-2 my-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
-                >
-                    Resume
-                </motion.a>
             </div>
-        </motion.div>
+        </div>
     </section>
   )
 }

@@ -1,5 +1,5 @@
 import Hero from '@/components/main/Hero'
-import Techlist from '@/components/sub/Techlist'
+import Techlist from '@/components/main/Techlist'
 
 export default function Home() {
   return (

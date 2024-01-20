@@ -21,7 +21,7 @@ const HeroContent = () => {
               opacity: 1,
   
               ease: "elastic.out(1,0.3)",
-              duration: 1.7,
+              duration: 0.8,
               transformOrigin: "left top",
               stagger: { each: 0.5 },
             },
@@ -36,7 +36,7 @@ const HeroContent = () => {
             {
               opacity: 1,
               y: 0,
-              duration: 1,
+              duration: 0.8,
               scale: 1,
               ease: "elastic.out(1,0.3)",
             },

@@ -1,12 +1,12 @@
 import { styles } from '@/styles'
 import React from 'react'
 
-const Education = () => {
+const Library = () => {
   return (
     <section className={`${styles.sectionP}`}>
-        Education
+        
     </section>
   )
 }
 
-export default Education
+export default Library
