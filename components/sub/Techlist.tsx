@@ -46,7 +46,7 @@ const Techlist = () => {
   }, []);
 
   return (
-    <section className='w-full sm:my-8 my-20 flex flex-col gap-6 text-white overflow-x-hidden' ref={component}>
+    <section className='w-full sm:my-8 my-20 flex flex-col gap-6 text-white overflow-x-hidden overflow-y-hidden' ref={component}>
         <h4 className='text-6xl font-bold px-8'>
           Tech I Use
         </h4>
