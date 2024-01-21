@@ -1,11 +1,10 @@
 import React from 'react'
 import HeroContent from '../sub/HeroContent'
 import Shapes from '../sub/Shapes'
-import { styles } from '@/styles'
 
 const Hero = () => {
   return (
-    <section className={`${styles.sectionP}`}>
+    <section className='flex flex-col sm:flex-row h-full w-full px-10'>
       <Shapes />
       <HeroContent />
     </section>

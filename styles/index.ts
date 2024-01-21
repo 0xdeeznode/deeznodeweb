@@ -1,5 +1,6 @@
-const styles = {
-    sectionP: 'flex flex-col md:flex-row h-full w-full px-10' 
-  };
   
-export { styles };
+export const styles = {
+    sectionP: 'flex flex-col sm:flex-row h-full w-full px-10' 
+  };
+ 
+  

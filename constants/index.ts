@@ -1,21 +1,27 @@
-export const navLinks = [
+
+export const projects = [
   {
-    id: "about",
-    title: "About",
+    title: "FucsiaLabs",
+    src: "fucsialabs.png",
+    color: "#706D63"
   },
   {
-    id: "skills",
-    title: "Skills",
+    title: "The RailYard",
+    src: "therailyard.png",
+    color: "#706D63"
   },
   {
-    id: "work",
-    title: "Work",
+    title: "Agaetis",
+    src: "agaetis.jpg",
+    color: "#706D63"
   },
   {
-    id: "cv",
-    title: "CV",
-  },
-];
+    title: "IGO MetaVerse",
+    src: "igometaverse.png",
+    color: "#706D63"
+  }
+]
+
 
 export const techList = [
   {
