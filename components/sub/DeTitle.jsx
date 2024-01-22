@@ -1,9 +1,15 @@
 import React from 'react'
+import Magnetic from '@/components/sub/Magnetic'
 
-const DeTitle = ({ title }) => {
+const DeTitle = ( {text} ) => {
+
+  const characters = text.split('');
+
   return (
-    <div>
-        {title}
+    <div className='flex '>
+        {characters.map((char, index) => (
+        <Magnetic><span className='text-5xl sm:text-6xl text-white font-bold' key={index}>{char}</span></Magnetic>
+        ))}
     </div>
   )
 }
