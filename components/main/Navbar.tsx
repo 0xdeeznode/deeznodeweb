@@ -48,9 +48,9 @@ const Navbar = () => {
               <Link href="/projects" className="cursor-pointer">
                 Work
               </Link>
-              <Link href="/contact" className="cursor-pointer">
+              <div className="cursor-default">
                 Contact
-              </Link>
+              </div>
             </div>
           </div>
         </Magnetic>
