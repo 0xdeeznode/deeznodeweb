@@ -7,7 +7,6 @@ const Home = () => {
     <main className='h-full w-full'>
       <div className='flex flex-col'>
         <Bio />
-        <Education />
       </div>
     </main>
   )

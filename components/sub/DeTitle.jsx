@@ -8,7 +8,7 @@ const DeTitle = ( {text} ) => {
   return (
     <div className='flex '>
         {characters.map((char, index) => (
-        <Magnetic><span className='text-5xl sm:text-6xl text-white font-bold' key={index}>{char}</span></Magnetic>
+        <Magnetic><span className='text-5xl sm:text-7xl text-white font-bold' key={index}>{char}</span></Magnetic>
         ))}
     </div>
   )

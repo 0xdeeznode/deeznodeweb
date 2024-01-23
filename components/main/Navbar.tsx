@@ -9,9 +9,7 @@ import Magnetic from '@/components/sub/Magnetic'
 
 const Navbar = () => {
   const [navBar, setNavBar] = useState(false);
-
   const handleNav = () => {
-
     setNavBar(!navBar)
       if (navBar) {
         gsap.to('.menu',{y:-210, duration:1.5, display:'hidden', ease:"bounce"})
@@ -26,7 +24,7 @@ const Navbar = () => {
         <Magnetic>
           <Link
             href="/"
-            className="h-auto w-auto flex flex-row items-center"
+            className="sm:w-52 w-auto flex flex-row items-center"
           >
               <Image
                 src="/NavLogo.svg"
@@ -35,20 +33,23 @@ const Navbar = () => {
                 height={50}
                 className="cursor-pointer"
               />
-              <span className="font-bold hidden md:block text-gray-300">
+              <p className="font-bold hidden md:flex text-gray-300">
                 0xDeezNode
-              </span>
+              </p>
           </Link>
         </Magnetic>
 
         <Magnetic>
-          <div className="w-60 h-20 hidden md:flex flex-row items-center justify-between">
-            <div className="text-md flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] px-5 py-2 rounded-full text-gray-100">
+          <div className="w-72 h-20 hidden md:flex flex-row items-center justify-between">
+            <div className="text-md flex items-center justify-between gap-2 w-full h-auto border border-[#7042f861] bg-[#0300145e] px-5 py-2 rounded-full text-gray-100">
               <Link href="/about" className="cursor-pointer">
-                About Me
+                About
               </Link>
               <Link href="/projects" className="cursor-pointer">
-                Projects
+                Work
+              </Link>
+              <Link href="/contact" className="cursor-pointer">
+                Contact
               </Link>
             </div>
           </div>

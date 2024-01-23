@@ -12,7 +12,7 @@ const Library = () => {
 
   return (
     <section className='flex flex-col h-full items-center justify-center px-10 gap-14 my-36 z-20'>
-      <DeTitle text='LIBRARY' />   
+      <DeTitle text='Recent-Work' />   
       <div className='flex flex-col items-center justify-center w-full'>
         {
           projects.map( (project, index) => {
