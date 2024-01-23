@@ -1,4 +1,20 @@
 
+export const servoInfo = [
+  {
+    title: "Design",
+    text: "With a proven history of crafting websites and applications, I provide robust and user-centric digital designs. The cornerstone of any successful website is a strong company branding.",
+  },
+  {
+    title: "Development",
+    text: "I craft scalable websites from the ground up, seamlessly aligning them with the design. My emphasis lies in the implementation of micro-animations, smooth transitions, and engaging interactions. I leverage Grav CMS for effective content management.",
+  },
+  {
+    title: "✦ The full package",
+    text: "A complete website from concept to implementation, that's what makes me stand out. My great sense for design and my development skills enable me to create kick-ass projects.",
+  },
+  
+]
+
 export const projects = [
   {
     title: "FucsiaLabs",
