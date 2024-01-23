@@ -87,13 +87,13 @@ const Navbar = () => {
       <div className={`menu hidden absolute top-0 left-0 right-0 justify-center items-center px-4 w-full h-52 shadow-lg shadow-[#2A0E61]/50 bg-[#030014e8] backdrop-blur-md z-50 text-center rounded-3xl`}>
         <ul className="w-full">
           <li className='p-3 text-3xl text-white hover:font-bold ease-in duration-300'>
-            <Link href='/about' onClick={handleNav}>About Me</Link>
+            <Link href='/about' onClick={handleNav}>About</Link>
           </li>
           <li className='p-3 text-3xl text-white hover:font-bold ease-in duration-300'>
-            <Link href='/projects' onClick={handleNav}>Projects</Link>
+            <Link href='/projects' onClick={handleNav}>Work</Link>
           </li>
           <li className='p-3 text-3xl text-white hover:font-bold ease-in duration-300'>
-            <Link href='/nothing' onClick={handleNav}>Nothing Here</Link>
+            <Link href='/contact' onClick={handleNav}>Contact</Link>
           </li>
         </ul>
       </div>
