@@ -56,10 +56,10 @@ const Footer = () => {
         {/* SubContent */}
         <div className='flex flex-row items-center my-5 gap-10 w-full'>
           <Magnetic>
-            <p className='Welcome-box text-slate-300 p-14'>nalanarud@gmail.com</p>
+            <p className='Welcome-box text-slate-300 p-6'>nalanarud@gmail.com</p>
           </Magnetic>
           <Magnetic>
-            <p className='Welcome-box text-slate-300 p-14'>+57 319 432-3144</p>
+            <p className='Welcome-box text-slate-300 p-6'>+57 319 432-3144</p>
           </Magnetic>
         </div>
       </div>

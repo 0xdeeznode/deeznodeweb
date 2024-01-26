@@ -58,7 +58,7 @@ const HeroContent = () => {
               <span className='heading-animation text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Elegant </span>
               <span className='heading-animation'>Web Solutions</span>
           </div>
-          <p className='subHead-animation Welcome-box opacity-0 text-lg text-gray-400 my-5 max-w-lg h-auto'>
+          <p className='subHead-animation Welcome-box opacity-0 text-lg text-gray-400 my-5 max-w-lg h-auto p-6 text-ellipsis'>
               I&apos;m a Web Developer with experience in Websites, Webapps, and Mobile. Check out my projects and skills.
           </p>
       </div>
