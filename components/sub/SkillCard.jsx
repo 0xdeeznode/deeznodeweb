@@ -13,6 +13,7 @@ const SkillCard = ({name, src}) => {
             width={65}
             height={65}
             src={`/${src}`}
+            alt={`${name} icon`}
             />
             <p className='text-white font-bold'>
                 {name}

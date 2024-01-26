@@ -41,7 +41,7 @@ const Footer = () => {
       <div className='py-14'>
         {/* Header */}
         <div className='flex flex-col gap-2 justify-start text-start'>
-          <h3 className='text-white font-bold text-5xl'>Let's Work Together</h3>
+          <h3 className='text-white font-bold text-5xl'>Let&apos;s Work Together</h3>
           <div className='border w-1/2 '/>
         </div>
         {/* Content Circle */}
