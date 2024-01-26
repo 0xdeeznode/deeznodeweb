@@ -41,7 +41,7 @@ const Modal = ({modal, projects}) => {
 
   return (
     <>
-        <motion.div ref={modalContainer} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"} className='h-36 w-52 sm:h-60 sm:w-80 absolute bg-white overflow-hidden pointer-events-none flex items-center justify-center'>
+        <motion.div ref={modalContainer} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"} className='h-36 w-52 sm:h-60 sm:w-96 absolute bg-white overflow-hidden pointer-events-none flex items-center justify-center'>
             <div style={{top: index * -100 + "%"}} className='h-full w-full absolute transition-top duration-500 ease-in-out'>
                 {
                     projects.map( (project, index) => {
@@ -49,10 +49,10 @@ const Modal = ({modal, projects}) => {
                     return <div className='h-full w-full flex items-center justify-center' style={{backgroundColor: color}} key={`modal_${index}`}>
                         <Image 
                         src={`/${src}`}
-                        width={310}
+                        width={385}
                         height={0}
                         alt="image"
-                        className='h-auto'
+                        className='h-full'
                         />
                     </div>
                 })

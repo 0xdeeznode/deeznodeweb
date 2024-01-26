@@ -8,7 +8,7 @@ export default function Home() {
       <div className='flex flex-col'>
         <Hero />
         <Techlist />
-        <Library />
+        <Library heading='Recent Work'/>
       </div>
     </main>
   )
