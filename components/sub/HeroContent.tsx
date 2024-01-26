@@ -14,15 +14,14 @@ const HeroContent = () => {
           .timeline()
           .fromTo(
             ".heading-animation",
-            { x: -100, opacity: 0.1, rotate: -10 },
+            { x: -100, opacity: 0, rotate: -10 },
             {
               x:0,
               rotate:0,
               opacity: 1,
   
-              ease: "bounce.inOut",
+              ease: "rough",
               duration: 0.6,
-              transformOrigin: "left top",
               stagger: { each: 0.2 },
             },
           )

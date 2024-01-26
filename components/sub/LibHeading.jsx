@@ -5,12 +5,13 @@ import Magnetic from '@/components/sub/Magnetic'
 const LibHeading = () => {
 
   return (
-    <div className='w-full h-fit flex flex-col justify-start gap-14 px-10 z-20'>
-      <h1 className='text-white text-6xl font-bold flex flex-col justify-start'>
+    <div className='w-full h-fit flex flex-col justify-start gap-14 px-5 sm:px-10 z-20'>
+      <h1 className='text-white text-4xl sm:text-6xl font-bold flex flex-col justify-start'>
         <span>Creating next level</span>
         <span>digital products</span>
       </h1>
-      <div className='flex flex-row justify-between px-7'>
+      {/* Menu Bar */}
+      <div className='flex flex-col gap-5 justify-center items-center sm:gap-0 sm:flex-row sm:justify-between px-4'>
         <div className='flex flex-start gap-6 text-white font-bold'>
           <Magnetic>
             <button className='Welcome-box cursor-pointer p-6'>
@@ -44,10 +45,11 @@ const LibHeading = () => {
             </button>
           </Magnetic>
         </div>
+        {/* Indicators */}
       </div>
       <div className='flex justify-between px-40'>
-        <p className='text-white'>Client</p>
-        <p className='text-white'>Services</p>
+        <p className='text-white text-xl sm:text-base'>Client</p>
+        <p className='text-white hidden sm:flex'>Services</p>
       </div>
     </div>
   )

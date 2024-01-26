@@ -12,9 +12,9 @@ const Navbar = () => {
   const handleNav = () => {
     setNavBar(!navBar)
       if (navBar) {
-        gsap.to('.menu',{y:-210, duration:1.5, display:'hidden', ease:"bounce"})
+        gsap.to('.menu',{y:-210, duration:1.2, display:'hidden', ease:"bounce"})
       } else {
-        gsap.to('.menu',{y:65, duration:1.5, display:'flex', ease:"bounce"})
+        gsap.to('.menu',{y:65, duration:1.2, display:'flex', ease:"bounce"})
       }
   }
 
@@ -92,8 +92,8 @@ const Navbar = () => {
           <li className='p-3 text-3xl text-white hover:font-bold ease-in duration-300'>
             <Link href='/projects' onClick={handleNav}>Work</Link>
           </li>
-          <li className='p-3 text-3xl text-white hover:font-bold ease-in duration-300'>
-            <Link href='/contact' onClick={handleNav}>Contact</Link>
+          <li className='p-3 text-3xl text-gray-500 sm:text-white hover:font-bold ease-in duration-300'>
+            <Link href='' onClick={handleNav}>Contact</Link>
           </li>
         </ul>
       </div>

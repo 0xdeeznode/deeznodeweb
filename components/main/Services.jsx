@@ -4,7 +4,7 @@ import { servoInfo } from '@/constants/index'
 
 const Services = () => {
   return (
-    <section className='flex flex-col h-full w-full px-20 my-24 gap-8'>
+    <section className='flex flex-col h-full w-full px-5 sm:px-20 my-24 gap-8'>
       <div>
         <h1 className='text-white text-5xl'>
           I can help you with<span>...</span>

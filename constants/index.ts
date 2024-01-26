@@ -58,64 +58,91 @@ export const techList = [
   },
 ]
 
+export const TopSkills = [
+  {
+    skill_name:"React",
+    image:"react.svg",
+  },
+  {
+    skill_name:"Next.js",
+    image:"nextjs.svg",
+  },
+  {
+    skill_name:"Node.js",
+    image:"nodejs.svg",
+  },
+  {
+    skill_name:"Javascript",
+    image:"javascript.svg",
+  },
+  {
+    skill_name:"Python",
+    image:"python.svg",
+  },
+  {
+    skill_name:"Django",
+    image:"django.svg",
+  },
+] 
+
 export const LanguagesFrameworks = [
     {
       skill_name: "Html 5",
-      Image: "/html.svg",
+      image: "html.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Css",
-      Image: "/css.svg",
+      image: "css.svg",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Java Script",
-      Image: "/javascript.svg",
+      skill_name: "Javascript",
+      image: "javascript.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "React",
-      Image: "/react.svg",
+      image: "react.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Type Script",
-      Image: "/typescript.svg",
+      image: "typescript.svg",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Next js 14",
-      Image: "/nextjs.svg",
+      skill_name: "Next.js 14",
+      image: "nextjs.svg",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Node js",
-      Image: "/nodejs.svg",
+      skill_name: "Node.js",
+      image: "nodejs.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Python",
-      Image: "/python.svg",
+      image: "python.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Django",
-      Image: "/django.svg",
+      image: "django.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Go",
-      Image: "/go.svg",
+      image: "go.svg",
       width: 100,
       height: 100,
     },
@@ -124,19 +151,19 @@ export const LanguagesFrameworks = [
   export const ToolsPlatforms = [
     {
       skill_name: "Git",
-      Image: "/git.svg",
+      image: "git.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Tailwind Css",
-      Image: "/tailwind.svg",
+      image: "tailwind.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Framer Motion",
-      Image: "/framermotion.svg",
+      image: "framermotion.svg",
       width: 80,
       height: 80,
     },
@@ -145,13 +172,13 @@ export const LanguagesFrameworks = [
   export const Databases = [
     {
       skill_name: "Mongo db",
-      Image: "/mongodb.svg",
+      image: "mongodb.svg",
       width: 70,
       height: 70,
     },
     {
       skill_name: "My SQL",
-      Image: "/mysql.svg",
+      image: "mysql.svg",
       width: 80,
       height: 80,
     },

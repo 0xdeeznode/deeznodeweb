@@ -9,7 +9,7 @@ const Bio = () => {
   return (
     <section>
         <motion.div
-        className='flex flex-col sm:flex-row items-center justify-center px-20 mt-40 w-full z-[20]'
+        className='flex flex-col sm:flex-row items-center justify-center px-5 sm:px-20 mt-40 w-full z-[20]'
         initial="hidden"
         animate="visible"
         >        

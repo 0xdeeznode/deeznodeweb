@@ -44,8 +44,8 @@ const Footer = () => {
           <h3 className='text-white font-bold text-5xl'>Let's Work Together</h3>
           <div className='border w-1/2 '/>
         </div>
-        {/* Content */}
-        <div className='relative flex flex-col items-center mt-16 justify-end'>
+        {/* Content Circle */}
+        <div className='relative flex flex-col items-center my-16 justify-end'>
           <div className='absolute top-1/2 left-[65%] transform -translate-x-1/2 -translate-y-1/2 w-[70%] border-t-2' />
           <Magnetic>
             <div className='w-[150px] h-[145px] bg-gradient-to-br from-neutral-300 to-neutral-500 rounded-full border-slate-500 z-10 flex justify-center items-center shadow-md'>
@@ -54,7 +54,7 @@ const Footer = () => {
           </Magnetic>
         </div>
         {/* SubContent */}
-        <div className='flex flex-row items-center my-5 gap-10 w-full'>
+        <div className='flex flex-col sm:flex-row items-center my-5 gap-5 sm:gap-10 w-full'>
           <Magnetic>
             <p className='Welcome-box text-slate-300 p-6'>nalanarud@gmail.com</p>
           </Magnetic>
