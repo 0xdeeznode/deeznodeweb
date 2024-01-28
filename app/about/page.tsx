@@ -2,6 +2,7 @@ import Bio from '@/components/main/Bio'
 import Skills from '@/components/main/Skills'
 import Services from '@/components/main/Services'
 import React from 'react'
+import Footer from '@/components/main/Footer'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <Bio />
         <Services />
         <Skills />
+        <Footer />
       </div>
     </main>
   )

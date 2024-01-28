@@ -1,6 +1,7 @@
 'use client'
 
 import { useForm } from 'react-hook-form';
+import Magnetic from '@/components/sub/Magnetic'
 import React from 'react'
 
 const Contact = () => {
@@ -69,8 +70,12 @@ const Contact = () => {
             <div className='flex flex-col gap-12'>
                 <div className='flex flex-col gap-2'>
                     <p className='text-slate-400 text-xs'>CONTACT DETAILS</p>
-                    <p className='text-white'>nalanarud@gmail.com</p>
-                    <p className='text-white'>+57 319 432 3144</p>
+                    <Magnetic>
+                        <p className='text-white'>nalanarud@gmail.com</p>
+                    </Magnetic>
+                    <Magnetic>
+                        <p className='text-white'>+57 319 432 3144</p>
+                    </Magnetic>
                 </div>
                 <div className='flex flex-col gap-2'>
                     <p className='text-slate-400 text-xs'>BUSINESS DETAILS</p>
@@ -79,10 +84,10 @@ const Contact = () => {
                 </div>
                 <div className='flex flex-col gap-2'>
                     <p className='text-slate-400 text-xs'>SOCIALS</p>
-                    <p className='text-white'>Medium</p>
-                    <p className='text-white'>Instagram</p>
-                    <p className='text-white'>Twitter</p>
-                    <p className='text-white'>LinkedIn</p>
+                    <Magnetic><a href='https://medium.com/@0xdeeznode' className='text-white'>Medium</a></Magnetic>
+                    <Magnetic><a href='https://www.instagram.com/0xdeeznode/' className='text-white'>Instagram</a></Magnetic>
+                    <Magnetic><a href='https://twitter.com/0xdeeznode' className='text-white'>Twitter</a></Magnetic>
+                    <Magnetic><a href='https://www.linkedin.com/in/alangduran/' className='text-white'>LinkedIn</a></Magnetic>
                 </div>
             </div>
         </div>
