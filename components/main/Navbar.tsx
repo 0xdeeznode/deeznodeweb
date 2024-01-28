@@ -48,9 +48,9 @@ const Navbar = () => {
               <Link href="/projects" className="cursor-pointer">
                 Work
               </Link>
-              <div className="cursor-default">
+              <Link href='/contact' className="cursor-pointer">
                 Contact
-              </div>
+              </Link>
             </div>
           </div>
         </Magnetic>
@@ -92,8 +92,8 @@ const Navbar = () => {
           <li className='p-3 text-3xl text-white hover:font-bold ease-in duration-300'>
             <Link href='/projects' onClick={handleNav}>Work</Link>
           </li>
-          <li className='p-3 text-3xl text-gray-500 sm:text-white hover:font-bold ease-in duration-300'>
-            <Link href='' onClick={handleNav}>Contact</Link>
+          <li className='p-3 text-3xl text-white hover:font-bold ease-in duration-300'>
+            <Link href='/contact' onClick={handleNav}>Contact</Link>
           </li>
         </ul>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroContent from '../sub/HeroContent'
-import Shapes from '../sub/Shapes'
+import Shapes from '../shapes/Shapes'
 
 const Hero = () => {
   return (

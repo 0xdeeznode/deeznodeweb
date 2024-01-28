@@ -2,7 +2,7 @@ import Library from '@/components/main/Library'
 import LibHeading from '@/components/sub/LibHeading'
 import React from 'react'
 
-const page = () => {
+const Home = () => {
   return (
     <main className='h-full w-full'>
       <div className='flex flex-col mt-28'>
@@ -13,4 +13,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Home
