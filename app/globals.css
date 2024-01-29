@@ -2,7 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import 'react-toastify/dist/ReactToastify.css';
 
 .Welcome-text {
   background: linear-gradient(
@@ -40,4 +40,3 @@
 html {
   scroll-behavior: smooth;
 }
-
