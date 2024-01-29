@@ -3,7 +3,7 @@ import stringify from 'json-stringify-safe';
 export function sendEmail(data) {
   const apiEndpoint = '/api/email';
 
-  const jsonData = stringify(data);
+  const jsonData = JSON.stringify(data);
 
   fetch(apiEndpoint, {
     method: 'POST',
