@@ -195,11 +195,6 @@ export const LanguagesFrameworks = [
       url: "https://github.com/0xdeeznode",
     },
     {
-      name: "Linkedin",
-      src: "/linkedin.svg",
-      url: "https://linkedin.com/in/alangduran/",
-    },
-    {
       name: "Medium",
       src: "/medium.svg",
       url: "https://medium.com/@0xdeeznode",

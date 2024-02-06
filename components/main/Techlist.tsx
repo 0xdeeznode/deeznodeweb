@@ -28,15 +28,15 @@ const Techlist = () => {
         {
           x: (index) => {
             return index % 2 === 0
-             ? gsap.utils.random(500, 300) 
-             : gsap.utils.random(-500, -300);
+             ? gsap.utils.random(400, 200) 
+             : gsap.utils.random(-400, -200);
           },
         }, 
         {
           x: (index) => {
             return index % 2 === 0
-             ? gsap.utils.random(-500, -300) 
-             : gsap.utils.random(500, 300);
+             ? gsap.utils.random(-400, -200) 
+             : gsap.utils.random(400, 200);
           },
           ease: "power1.inOut",
         },
