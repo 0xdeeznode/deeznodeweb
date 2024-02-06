@@ -96,7 +96,6 @@ const Contact = () => {
                     <Magnetic><a href='https://medium.com/@0xdeeznode' className='text-white'>Medium</a></Magnetic>
                     <Magnetic><a href='https://www.instagram.com/0xdeeznode/' className='text-white'>Instagram</a></Magnetic>
                     <Magnetic><a href='https://twitter.com/0xdeeznode' className='text-white'>Twitter</a></Magnetic>
-                    <Magnetic><a href='https://www.linkedin.com/in/alangduran/' className='text-white'>LinkedIn</a></Magnetic>
                 </div>
             </div>
         </div>

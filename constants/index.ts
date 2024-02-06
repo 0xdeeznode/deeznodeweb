@@ -19,22 +19,26 @@ export const projects = [
   {
     title: "FucsiaLabs",
     src: "fucsialabs.png",
-    color: "#121212"
+    color: "#121212",
+    refe:'',
   },
   {
     title: "The RailYard",
     src: "therailyard.png",
-    color: "#121212"
+    color: "#121212",
+    refe:'',
   },
   {
-    title: "Agaetis",
-    src: "agaetis.jpg",
-    color: "#121212"
+    title: "Makeup In Cancun",
+    src: "makeupincancun.png",
+    color: "#121212",
+    refe:'',
   },
   {
     title: "IGO MetaVerse",
     src: "igometaverse.png",
-    color: "#121212"
+    color: "#121212",
+    refe:'',
   }
 ]
 
