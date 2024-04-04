@@ -7,8 +7,8 @@ import Navbar from '@/components/main/Navbar';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'DeezNode Portfolio',
-  description: 'Making it happen on this node',
+  title: 'DeezNode Web Development',
+  description: 'Modern Web Solutions',
 }
 
 export default function RootLayout({

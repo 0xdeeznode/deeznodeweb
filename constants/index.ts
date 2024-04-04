@@ -18,27 +18,35 @@ export const servoInfo = [
 export const projects = [
   {
     title: "FucsiaLabs",
+    location:"United States",
+    rol:"Design & Development",
     src: "fucsialabs.png",
     color: "#121212",
-    refe:'',
+    refe:'https://fucsia-labs.vercel.app/',
   },
   {
     title: "The RailYard",
+    location: "United States",
+    rol:"Development",
     src: "therailyard.png",
     color: "#121212",
-    refe:'',
+    refe:'https://www.therailyardwi.com/',
   },
   {
     title: "Makeup In Cancun",
+    location: "Mexico",
+    rol:"Design & Development",
     src: "makeupincancun.png",
     color: "#121212",
-    refe:'',
+    refe:'https://www.makeupincancun.com/',
   },
   {
     title: "IGO MetaVerse",
+    location: "United States",
+    rol:"Design & Development",
     src: "igometaverse.png",
     color: "#121212",
-    refe:'',
+    refe:'https://www.igoverse.co/',
   }
 ]
 
@@ -89,104 +97,6 @@ export const TopSkills = [
   },
 ] 
 
-export const LanguagesFrameworks = [
-    {
-      skill_name: "Html 5",
-      image: "html.svg",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Css",
-      image: "css.svg",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Javascript",
-      image: "javascript.svg",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "React",
-      image: "react.svg",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Type Script",
-      image: "typescript.svg",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Next.js 14",
-      image: "nextjs.svg",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Node.js",
-      image: "nodejs.svg",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Python",
-      image: "python.svg",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Django",
-      image: "django.svg",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Go",
-      image: "go.svg",
-      width: 100,
-      height: 100,
-    },
-  ];
-  
-  export const ToolsPlatforms = [
-    {
-      skill_name: "Git",
-      image: "git.svg",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Tailwind Css",
-      image: "tailwind.svg",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Framer Motion",
-      image: "framermotion.svg",
-      width: 80,
-      height: 80,
-    },
-  ];
-  
-  export const Databases = [
-    {
-      skill_name: "Mongo db",
-      image: "mongodb.svg",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "My SQL",
-      image: "mysql.svg",
-      width: 80,
-      height: 80,
-    },
-  ];
   
   export const Socials = [
     {

@@ -47,10 +47,10 @@ const Footer = () => {
         </div>
         {/* Content Circle */}
         <div className='relative flex flex-col items-center my-16 justify-end'>
-            <div className='absolute top-1/2 left-[65%] transform -translate-x-1/2 -translate-y-1/2 w-[70%] border-t-2' />
-          <Link href='/contact'>
+            <div className='absolute top-1/2 left-[65%] transform -translate-x-1/2 -translate-y-1/2 w-[70%] border-t-2 z-0' />
+          <Link href='/contact' className='z-20'>
             <Magnetic>
-              <div className='w-[150px] h-[145px] bg-gradient-to-br from-neutral-300 to-neutral-500 rounded-full border-slate-500 z-10 flex justify-center items-center shadow-md'>
+              <div className='w-[150px] h-[145px] bg-gradient-to-br from-neutral-300 to-neutral-500 rounded-full border-slate-500 flex justify-center items-center shadow-md'>
                 <p className='text-white font-bold hover:scale-125 hover:font-extrabold transition-all duration-300 cursor-pointer'>Get in Touch</p>
               </div>
             </Magnetic>
@@ -59,7 +59,7 @@ const Footer = () => {
         {/* SubContent */}
         <div className='flex flex-col sm:flex-row items-center my-5 gap-5 sm:gap-10 w-full'>
           <Magnetic>
-            <p className='Welcome-box text-slate-300 p-6'>nalanarud@gmail.com</p>
+            <p className='Welcome-box text-slate-300 p-6'>0xdeeznode@gmail.com</p>
           </Magnetic>
           <Magnetic>
             <p className='Welcome-box text-slate-300 p-6'>+57 319 432 3144</p>

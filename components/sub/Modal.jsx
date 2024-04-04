@@ -16,7 +16,7 @@ const Modal = ({modal, projects}) => {
   
     useEffect( () => {
       
-        //Move Container
+      //Move Container
       let xMoveContainer = gsap.quickTo(modalContainer.current, "left", {duration: 0.8, ease: "power3"})
       let yMoveContainer = gsap.quickTo(modalContainer.current, "top", {duration: 0.8, ease: "power3"})
       
@@ -44,23 +44,24 @@ const Modal = ({modal, projects}) => {
         <motion.div ref={modalContainer} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"} className='h-36 w-52 sm:h-60 sm:w-96 absolute bg-white overflow-hidden pointer-events-none flex items-center justify-center'>
             <div style={{top: index * -100 + "%"}} className='h-full w-full absolute transition-top duration-500 ease-in-out'>
                 {
-                    projects.map( (project, index) => {
-                    const { src, color } = project
-                    return <div className='h-full w-full flex items-center justify-center' style={{backgroundColor: color}} key={`modal_${index}`}>
-                        <Image 
-                        src={`/${src}`}
-                        width={385}
-                        height={0}
-                        alt="image"
-                        className='h-full'
-                        />
-                    </div>
+                  projects.map( (project, index) => {
+                  const { src, color } = project
+                  return <div className='h-full w-full flex items-center justify-center' style={{backgroundColor: color}} key={`modal_${index}`}>
+                    <Image 
+                    src={`/${src}`}
+                    width={385}
+                    height={0}
+                    alt="image"
+                    />
+                  </div>
                 })
                 }
             </div>
         </motion.div>
         <motion.div ref={cursor} className='flex items-center justify-center text-sm pointer-events-none w-11 h-11 sm:w-16 sm:h-16 rounded-[50%] bg-[#2A0E61]/30 backdrop-blur-sm text-white absolute z-2' variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}></motion.div>
+        
         <motion.div ref={cursorLabel} className='bg-transparent flex items-center justify-center text-sm pointer-events-none w-20 h-20 rounded-[50%] bg-[#455CE9] text-white absolute z-2' variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}>View</motion.div>
+        
     </>
   )
 }

@@ -15,7 +15,7 @@ const Library = ({heading=false}:any) => {
       <div className='flex flex-col items-center justify-center w-full'>
         {
           projects.map( (project, index) => {
-            return <Project index={index} title={project.title} setModal={setModal} key={index} />
+            return <Project index={index} refe={project.refe} title={project.title} setModal={setModal} key={index} />
           })
         }
       </div>
